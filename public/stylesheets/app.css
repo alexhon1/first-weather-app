@@ -17,14 +17,6 @@ html, body {
     font-size: large;
 }
 
-#blankdisplay {
-    height: 20rem;
-}
-
-#tempdisplay {
-    height: 20rem;
-}
-
 #temp {
     font-size: 3rem;
 }
