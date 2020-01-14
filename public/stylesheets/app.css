@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+}
+
+.ui.segment {
+    padding-top: 3rem;
+}
+
+.display {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
+}
+
+#blankdisplay {
+    height: 20rem;
+}
+
+#tempdisplay {
+    height: 20rem;
+}
+
+#temp {
+    font-size: 3rem;
+}
