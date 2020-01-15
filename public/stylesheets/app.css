@@ -2,8 +2,8 @@ html, body {
     height: 100%;
 }
 
-#main {
-    height: 100% !important;
+body {
+    background-color:#1b1c1d;
 }
 
 .ui.segment {

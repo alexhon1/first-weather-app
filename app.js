@@ -21,7 +21,15 @@ app.get('/', function(req, res){
             }
         }) 
         } else {
-            res.render('home')
+            request("http://api.openweathermap.org/data/2.5/weather?q=" + 'los angeles' + ',' + 'US' + "&units=imperial&APPID=" + process.env.APIID, function(err, respond, body){
+                if (!err&&respond.statusCode==200) {
+                    var weatherData = JSON.parse(body)
+                    res.render('home', {weatherData: weatherData});
+                } else 
+                {
+                    res.render('home');
+                }
+            })
         }
 });
 
