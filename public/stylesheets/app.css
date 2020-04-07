@@ -8,7 +8,9 @@ body {
 }
 
 .title {
+    width: 90%;
     margin: 10px auto;
+    padding-top: 30px;
     text-align: center;
 }
 
