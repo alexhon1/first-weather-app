@@ -8,12 +8,12 @@
     <link rel="stylesheet" type="text/css" href=<%= process.env.CSSPATH %> >
   </head>
 <body>
-
-<div class="ui center aligned basic segment inverted">
-    <div class="ui container"> 
-        <h1>Weather App Demo</h1>
-        <p>With Node.js, Express.js, EJS</p>
-        <h2>Get Current Weather On Your City</h3>
+    <div>
+        <div class="title">
+            <h1>Weather App Demo</h1>
+            <p>With Node.js, Express.js, EJS</p>
+            <h2>Get Current Weather On Your City</h3>
+        </div>
         <form class="ui form" action='/', method='GET'>
             <div class="field">
                 <input type='text', name='city', placeholder='city'>
@@ -272,7 +272,7 @@
                     <option value="ZW">Zimbabwe</option>
                 </select>
             </div>
-            <input class="ui primary button" type='submit', value="Get Weather">
+            <input class="ui right floated primary button" type='submit', value="Get Weather">
         </form>
         <div class="ui center aligned container display">
             <div>
@@ -304,8 +304,6 @@
             </div>
         </div>
     </div>
-</div>
-
 </body>
 </html>
 
