@@ -6,8 +6,21 @@ body {
     background-color:#1b1c1d;
 }
 
-.ui.segment {
+/* .ui.segment {
     padding-top: 3rem;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+.ui.container {
+    margin: 0 auto;
+    width: 100%;
+} */
+
+.ui.form {
+    margin: 0 auto;
+    width: 50%;
 }
 
 .display {
@@ -19,4 +32,5 @@ body {
 
 #temp {
     font-size: 3rem;
+    margin-bottom: 0;
 }
