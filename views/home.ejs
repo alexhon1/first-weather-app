@@ -6,12 +6,17 @@
     <link rel="stylesheet" type="text/css" href=<%= process.env.SEMANTICUICDN %> >
     <link rel="stylesheet" href=<%= process.env.FONTURL %> >
     <link rel="stylesheet" type="text/css" href=<%= process.env.CSSPATH %> >
+    <script src="https://kit.fontawesome.com/1275e12fdb.js" crossorigin="anonymous"></script>
   </head>
 <body>
     <div>
         <div class="title">
             <h1>Weather App Demo</h1>
-            <p>With Node.js, Express.js, EJS</p>
+            <p>
+                With Node.js, Express.js, EJS<br>
+                <a href="https://github.com/hnhon/first-weather-app" target="_blank">Project Repo</a><br>
+                Contact <a href="https://linkedin.com/in/hiunamhon" target="_blank"><i class="fab fa-linkedin"></i></a> 
+            </p> 
             <h2>Get Current Weather On Your City</h3>
         </div>
         <form class="ui form" action='/', method='GET'>
